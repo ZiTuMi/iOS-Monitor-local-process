@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "17e54433-63b3-4770-9d5d-eddff6dd50e1++5686",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "17e54433-63b3-4770-9d5d-eddff6dd50e1++5686" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "17e54433-63b3-4770-9d5d-eddff6dd50e1++5686" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F305C8AA-6F22-43AD-AB55-00314C252B6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "17e54433-63b3-4770-9d5d-eddff6dd50e1++5686" : "wanzhuan"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DollarHelper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DollarHelper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/shenchen.liu@192.168.1.10\/svn\/yunva-server-framework",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17e54433-63b3-4770-9d5d-eddff6dd50e1++5686"
+    }
+  ]
+}

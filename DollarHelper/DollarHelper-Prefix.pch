@@ -1,0 +1,49 @@
+//
+//  DollarHelper-Prefix.pch
+//  DollarHelper
+//
+//  Created by TuMi on 15/8/4.
+//  Copyright (c) 2015年 TuMi. All rights reserved.
+//
+
+#ifndef DollarHelper_DollarHelper_Prefix_pch
+#define DollarHelper_DollarHelper_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "YvUtilities.h"
+#endif
+
+/*
+ XCode LLVM XXX - Preprocessing中Debug会添加 DEBUG=1 标志
+ */
+#ifdef DEBUG
+#define YvDebugLog(FORMAT, ...) fprintf(stderr,"%s line:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+#endif
+/**
+ *  wechat AppID
+ */
+#define WXAPPID  @"wx202a26ee2b6a6dc6"
+
+/**
+ *  wechat AppSecret
+ */
+#define WXAPPSECRET  @"59d89b293f44936c605c81a60f10e5af"
+
+/**
+ *  连接环境是否是测试环境  0--正式环境 非0--测试环境
+ */
+#define kCONNECT_ENV_IS_TEST  0
+
+
